@@ -1,7 +1,7 @@
 import os
 import openai
 
-openai.api_key = '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'
+###openai.api_key = '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'
 prompt = input("Enter your Command: ")
 response = openai.Completion.create(
   model="text-davinci-003",
